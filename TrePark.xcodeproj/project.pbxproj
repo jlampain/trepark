@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F509BCEF32D2DB1A91C34C /* Pods_TrePark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1AB790C93E891054C68A75C /* Pods_TrePark.framework */; };
+		310EC8E61BE28FE500C3079F /* ic_layers_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 310EC8E51BE28FE500C3079F /* ic_layers_white.png */; };
+		3132048D1BC1A04600653C09 /* parkHallModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3132048C1BC1A04600653C09 /* parkHallModel.swift */; };
+		313204911BC2D82F00653C09 /* ParkingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313204901BC2D82F00653C09 /* ParkingCell.swift */; };
+		314D09301BC02BDA00447931 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314D092F1BC02BDA00447931 /* TableViewController.swift */; };
+		3166E7671BA604490069CC47 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 3166E7661BA604490069CC47 /* location.png */; };
+		3166E7691BA85A6E0069CC47 /* MapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3166E7681BA85A6E0069CC47 /* MapMarker.swift */; };
+		318CB8091BC5ADDA00EA5149 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318CB8081BC5ADDA00EA5149 /* MapModel.swift */; };
+		318CB80B1BC5AEB600EA5149 /* CarPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318CB80A1BC5AEB600EA5149 /* CarPark.swift */; };
+		31A2B5E01BB1C304004268CE /* TextBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A2B5DF1BB1C304004268CE /* TextBubble.swift */; };
+		31D72C1D1BA5AF7D00FCD8A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D72C1C1BA5AF7D00FCD8A9 /* AppDelegate.swift */; };
+		31D72C221BA5AF7D00FCD8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D72C201BA5AF7D00FCD8A9 /* Main.storyboard */; };
+		31D72C241BA5AF7D00FCD8A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D72C231BA5AF7D00FCD8A9 /* Images.xcassets */; };
+		31D72C271BA5AF7D00FCD8A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31D72C251BA5AF7D00FCD8A9 /* LaunchScreen.xib */; };
+		31D72C3D1BA5B01700FCD8A9 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D72C3C1BA5B01700FCD8A9 /* RootViewController.swift */; };
+		31D72C3F1BA5BABA00FCD8A9 /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = 31D72C3E1BA5BABA00FCD8A9 /* car.png */; };
+		31EDF2281BBD945800C7128B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31EDF22A1BBD945800C7128B /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		310EC8E51BE28FE500C3079F /* ic_layers_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_layers_white.png; sourceTree = "<group>"; };
+		3132048C1BC1A04600653C09 /* parkHallModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = parkHallModel.swift; sourceTree = "<group>"; };
+		313204901BC2D82F00653C09 /* ParkingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkingCell.swift; sourceTree = "<group>"; };
+		314D092F1BC02BDA00447931 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3166E7661BA604490069CC47 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		3166E7681BA85A6E0069CC47 /* MapMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapMarker.swift; sourceTree = "<group>"; };
+		316BE6E51BC4575700403AC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		318736DC1BAC72DC0017318B /* TrePark-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TrePark-Bridging-Header.h"; sourceTree = "<group>"; };
+		318CB8081BC5ADDA00EA5149 /* MapModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		318CB80A1BC5AEB600EA5149 /* CarPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarPark.swift; sourceTree = "<group>"; };
+		31A2B5DF1BB1C304004268CE /* TextBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextBubble.swift; sourceTree = "<group>"; };
+		31D72C171BA5AF7D00FCD8A9 /* TrePark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrePark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D72C1B1BA5AF7D00FCD8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D72C1C1BA5AF7D00FCD8A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31D72C211BA5AF7D00FCD8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31D72C231BA5AF7D00FCD8A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		31D72C261BA5AF7D00FCD8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		31D72C311BA5AF7D00FCD8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D72C321BA5AF7D00FCD8A9 /* TreParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreParkTests.swift; sourceTree = "<group>"; };
+		31D72C3C1BA5B01700FCD8A9 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		31D72C3E1BA5BABA00FCD8A9 /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
+		31EDF2261BBD924400C7128B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
+		31EDF2271BBD924400C7128B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		31EDF2291BBD945800C7128B /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		31EDF22B1BBD945F00C7128B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A16E122445AE681A771DF2AB /* Pods-TrePark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrePark.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrePark/Pods-TrePark.release.xcconfig"; sourceTree = "<group>"; };
+		B1AB790C93E891054C68A75C /* Pods_TrePark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrePark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C44D67A30DC41FADEE6031F4 /* Pods-TrePark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrePark.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrePark/Pods-TrePark.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31D72C141BA5AF7D00FCD8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F509BCEF32D2DB1A91C34C /* Pods_TrePark.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31D72C0E1BA5AF7D00FCD8A9 = {
+			isa = PBXGroup;
+			children = (
+				31D72C191BA5AF7D00FCD8A9 /* TrePark */,
+				31D72C2F1BA5AF7D00FCD8A9 /* TreParkTests */,
+				31D72C181BA5AF7D00FCD8A9 /* Products */,
+				F5C5E9F50F4B135F9134A6AA /* Pods */,
+				6B8D8FC428490D7E995A19FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		31D72C181BA5AF7D00FCD8A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31D72C171BA5AF7D00FCD8A9 /* TrePark.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31D72C191BA5AF7D00FCD8A9 /* TrePark */ = {
+			isa = PBXGroup;
+			children = (
+				310EC8E51BE28FE500C3079F /* ic_layers_white.png */,
+				318736DC1BAC72DC0017318B /* TrePark-Bridging-Header.h */,
+				3166E7661BA604490069CC47 /* location.png */,
+				31D72C3E1BA5BABA00FCD8A9 /* car.png */,
+				31D72C1C1BA5AF7D00FCD8A9 /* AppDelegate.swift */,
+				31D72C201BA5AF7D00FCD8A9 /* Main.storyboard */,
+				31D72C231BA5AF7D00FCD8A9 /* Images.xcassets */,
+				31D72C251BA5AF7D00FCD8A9 /* LaunchScreen.xib */,
+				31D72C1A1BA5AF7D00FCD8A9 /* Supporting Files */,
+				31D72C3C1BA5B01700FCD8A9 /* RootViewController.swift */,
+				318CB8081BC5ADDA00EA5149 /* MapModel.swift */,
+				3166E7681BA85A6E0069CC47 /* MapMarker.swift */,
+				31A2B5DF1BB1C304004268CE /* TextBubble.swift */,
+				314D092F1BC02BDA00447931 /* TableViewController.swift */,
+				3132048C1BC1A04600653C09 /* parkHallModel.swift */,
+				313204901BC2D82F00653C09 /* ParkingCell.swift */,
+				318CB80A1BC5AEB600EA5149 /* CarPark.swift */,
+			);
+			path = TrePark;
+			sourceTree = "<group>";
+		};
+		31D72C1A1BA5AF7D00FCD8A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31D72C1B1BA5AF7D00FCD8A9 /* Info.plist */,
+				31EDF22A1BBD945800C7128B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31D72C2F1BA5AF7D00FCD8A9 /* TreParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				31D72C321BA5AF7D00FCD8A9 /* TreParkTests.swift */,
+				31D72C301BA5AF7D00FCD8A9 /* Supporting Files */,
+			);
+			path = TreParkTests;
+			sourceTree = "<group>";
+		};
+		31D72C301BA5AF7D00FCD8A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31D72C311BA5AF7D00FCD8A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B8D8FC428490D7E995A19FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1AB790C93E891054C68A75C /* Pods_TrePark.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5C5E9F50F4B135F9134A6AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C44D67A30DC41FADEE6031F4 /* Pods-TrePark.debug.xcconfig */,
+				A16E122445AE681A771DF2AB /* Pods-TrePark.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31D72C161BA5AF7D00FCD8A9 /* TrePark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31D72C361BA5AF7D00FCD8A9 /* Build configuration list for PBXNativeTarget "TrePark" */;
+			buildPhases = (
+				84E897DC09463BC4BEF167F1 /* Check Pods Manifest.lock */,
+				31D72C131BA5AF7D00FCD8A9 /* Sources */,
+				31D72C141BA5AF7D00FCD8A9 /* Frameworks */,
+				31D72C151BA5AF7D00FCD8A9 /* Resources */,
+				AF8CAE40B850A0C94BB040B3 /* Embed Pods Frameworks */,
+				8F9B0EDFC3D3481889F7F9B5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrePark;
+			productName = TrePark;
+			productReference = 31D72C171BA5AF7D00FCD8A9 /* TrePark.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31D72C0F1BA5AF7D00FCD8A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = TrePark;
+				TargetAttributes = {
+					31D72C161BA5AF7D00FCD8A9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8299JDV5Y7;
+					};
+				};
+			};
+			buildConfigurationList = 31D72C121BA5AF7D00FCD8A9 /* Build configuration list for PBXProject "TrePark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31D72C0E1BA5AF7D00FCD8A9;
+			productRefGroup = 31D72C181BA5AF7D00FCD8A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31D72C161BA5AF7D00FCD8A9 /* TrePark */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31D72C151BA5AF7D00FCD8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31D72C3F1BA5BABA00FCD8A9 /* car.png in Resources */,
+				31D72C221BA5AF7D00FCD8A9 /* Main.storyboard in Resources */,
+				31EDF2281BBD945800C7128B /* Localizable.strings in Resources */,
+				3166E7671BA604490069CC47 /* location.png in Resources */,
+				31D72C271BA5AF7D00FCD8A9 /* LaunchScreen.xib in Resources */,
+				31D72C241BA5AF7D00FCD8A9 /* Images.xcassets in Resources */,
+				310EC8E61BE28FE500C3079F /* ic_layers_white.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84E897DC09463BC4BEF167F1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9B0EDFC3D3481889F7F9B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrePark/Pods-TrePark-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8CAE40B850A0C94BB040B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrePark/Pods-TrePark-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31D72C131BA5AF7D00FCD8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318CB8091BC5ADDA00EA5149 /* MapModel.swift in Sources */,
+				313204911BC2D82F00653C09 /* ParkingCell.swift in Sources */,
+				31A2B5E01BB1C304004268CE /* TextBubble.swift in Sources */,
+				3132048D1BC1A04600653C09 /* parkHallModel.swift in Sources */,
+				318CB80B1BC5AEB600EA5149 /* CarPark.swift in Sources */,
+				314D09301BC02BDA00447931 /* TableViewController.swift in Sources */,
+				31D72C1D1BA5AF7D00FCD8A9 /* AppDelegate.swift in Sources */,
+				3166E7691BA85A6E0069CC47 /* MapMarker.swift in Sources */,
+				31D72C3D1BA5B01700FCD8A9 /* RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31D72C201BA5AF7D00FCD8A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D72C211BA5AF7D00FCD8A9 /* Base */,
+				31EDF2261BBD924400C7128B /* fi */,
+				316BE6E51BC4575700403AC9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		31D72C251BA5AF7D00FCD8A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31D72C261BA5AF7D00FCD8A9 /* Base */,
+				31EDF2271BBD924400C7128B /* fi */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		31EDF22A1BBD945800C7128B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31EDF2291BBD945800C7128B /* fi */,
+				31EDF22B1BBD945F00C7128B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31D72C341BA5AF7D00FCD8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		31D72C351BA5AF7D00FCD8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31D72C371BA5AF7D00FCD8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C44D67A30DC41FADEE6031F4 /* Pods-TrePark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = TrePark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trepark.trepark.trepark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrePark/TrePark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		31D72C381BA5AF7D00FCD8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A16E122445AE681A771DF2AB /* Pods-TrePark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = TrePark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trepark.trepark.trepark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TrePark/TrePark-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31D72C121BA5AF7D00FCD8A9 /* Build configuration list for PBXProject "TrePark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D72C341BA5AF7D00FCD8A9 /* Debug */,
+				31D72C351BA5AF7D00FCD8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31D72C361BA5AF7D00FCD8A9 /* Build configuration list for PBXNativeTarget "TrePark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D72C371BA5AF7D00FCD8A9 /* Debug */,
+				31D72C381BA5AF7D00FCD8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31D72C0F1BA5AF7D00FCD8A9 /* Project object */;
+}

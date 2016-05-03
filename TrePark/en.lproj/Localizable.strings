@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  TrePark
+
+  Created by Jussi Lampainen on 1.10.2015.
+  Copyright © 2015 TrePark. All rights reserved.
+*/
+"Weekdays: "="Weekdays: ";
+"Saturday: "="Saturday: ";
+"Sunday: "="Sunday: ";
+"Parking disc required"="Parking disc required";
+"Paid parking"="Paid parking: %@€/hour";
+"Max time"="Max time: %@ hours";
+"Unlimited parking"="Unlimited parking";
+"Parking banned part of the day"="Parking banned part of the day";
+"Parking lots"="Parking lots: ";
+"Other info"="Other info: ";
+"spacesAvailable" = "space available";
+"open" = "open";
+"almostFull"="almost full";
+"fullAtEntrance"="full at entrance";
+"full"="full";
+"statusUnknown"="status unkown";
+"normalParkingConditionsSuspended"="parking suspended";
+"specialParkingConditionsInForce"="special conditions";
+"Finnpark's car parks in Tampere" = "Finnpark Multi storey car parks";
+"Car parks" = "Car parks";
+"Parking areas" = "Parking areas";
+"Tampere" = "Tampere";
+"Could not load parking areas." = "Could not load data";
+"Try again" = "Try again";
+"Dismiss" = "Close";
+"Show in map" = "Show in map";
+"All parking areas" = "All parking areas";
+"Motorbike parking areas" = "Motorbike parking areas";
+"Invalid parking areas" = "Invalid parking areas";
+
+

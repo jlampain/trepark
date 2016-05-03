@@ -1,0 +1,6 @@
+framework module KCSelectionDialog {
+  umbrella header "KCSelectionDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

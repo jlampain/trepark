@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "TamperePark"; ObjectID = "7pb-lL-rnw"; */
+"7pb-lL-rnw.title" = "TamperePark";
+
+/* Class = "UILabel"; text = "address"; ObjectID = "E51-D1-l3B"; */
+"E51-D1-l3B.text" = "address";
+
+/* Class = "UINavigationItem"; title = "Garages"; ObjectID = "KMP-GM-HzU"; */
+"KMP-GM-HzU.title" = "Garages";
+
+/* Class = "UILabel"; text = "title"; ObjectID = "UBB-QX-4i0"; */
+"UBB-QX-4i0.text" = "title";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "VSW-cC-7tV"; */
+"VSW-cC-7tV.text" = "time";
+
+/* Class = "UILabel"; text = "status"; ObjectID = "jE6-S3-fHF"; */
+"jE6-S3-fHF.text" = "status";

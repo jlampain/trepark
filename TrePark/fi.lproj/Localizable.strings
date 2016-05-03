@@ -1,0 +1,37 @@
+/* 
+  Localizable.strings
+  TrePark
+
+  Created by Jussi Lampainen on 1.10.2015.
+  Copyright © 2015 TrePark. All rights reserved.
+*/
+"Weekdays: "="Arkipäivisin: ";
+"Saturday: "="Lauantaisin: ";
+"Sunday: "="Sunnuntaisin: ";
+"Parking disc required"="Kiekkopysäköinti";
+"Paid parking"="Maksulinen pysäköinti: %@€/tunti";
+"Max time"="Enimmäisaika: %@ tuntia";
+"Unlimited parking"="Rajoittamaton pysäköinti";
+"Parking banned part of the day"="Pysäköintikielto osan vuorokaudesta";
+"Parking lots"= "Paikkoja yhteensä: ";
+"Other info"="Muuta: ";
+"spacesAvailable" = "tilaa";
+"open" = "avoinna";
+"almostFull"="kohta täynä";
+"fullAtEntrance"="sisäänmeno täynä";
+"full"="täynä";
+"statusUnknown"="tuntematon";
+"normalParkingConditionsSuspended"="keskeytetty";
+"specialParkingConditionsInForce"="erityisolosuhteet";
+"Finnpark's car parks in Tampere" = "Finnparkin pysäköintitalot";
+"Car parks" = "Pysäköintitalot";
+"Parking areas" = "Pysäköintialueet";
+"Tampere" = "Tampere";
+"Could not load parking areas." = "Aineiston lataaminen ei onnistunut.";
+"Try again" = "Yritä uudelleen";
+"Dismiss" = "Sulje";
+"Show in map" = "Näytä kartalla";
+"All parking areas" = "Kaikki pysäköintialueet";
+"Motorbike parking areas" = "Moottoripyörien pysäköintialueet";
+"Invalid parking areas" = "Inva -pysäköintialueet";
+

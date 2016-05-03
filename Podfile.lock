@@ -1,0 +1,30 @@
+PODS:
+  - KCSelectionDialog (0.1.3)
+  - SwiftHTTP (1.0.1)
+  - SwiftyJSON (2.3.0)
+
+DEPENDENCIES:
+  - KCSelectionDialog (~> 0.1)
+  - SwiftHTTP (from `https://github.com/daltoniam/swiftHTTP`)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftHTTP:
+    :git: https://github.com/daltoniam/swiftHTTP
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftHTTP:
+    :commit: 691c142891f785ea8a126575f29dc04a4a803433
+    :git: https://github.com/daltoniam/swiftHTTP
+  SwiftyJSON:
+    :commit: 3b5d0d4e0c19173b1bf0dc823bde25ad870f70c0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  KCSelectionDialog: fda2b9ad6ce295e374fbb6255b9a9712f1074f49
+  SwiftHTTP: 1c8bb7cf3969c750721392fac1e40a6415e8526e
+  SwiftyJSON: 8d6b61a70277ef2a5d710d372e06e7e2d87fb9e4
+
+COCOAPODS: 0.39.0
