@@ -1,6 +1,6 @@
 #  TrePark 
 
-This is my Open Tampere Challenge 2015 [(OTC-2015)](http://opentamperechallenge.fi) competition entry: Swift-app which helps people to find parking spaces and multi-storey car parks easily in Tampere area.
+This is my Open Tampere Challenge 2015 ([OTC-2015](http://opentamperechallenge.fi)) competition entry: Swift-app which helps people to find parking spaces and multi-storey car parks easily in Tampere area.
 
 TrePark won OTC-2015 audience competition (yleisöäännestys) and received 2nd price in challenge series (yhdistele -haastesarja).
 
